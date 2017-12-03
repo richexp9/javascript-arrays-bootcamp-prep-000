@@ -38,8 +38,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 
 
 function removeElementFromBeginningOfArray(array){
-  newArray=array.slice(1)
-  return newArray
+  array=array.slice(1)
+  return array
 }
 
 
@@ -53,3 +53,6 @@ function removeElementFromEndOfArray(array){
   newArray = array.slice(0, array.length - 1)
   return newArray
 }
+
+removeElementFromBeginningOfArray(chocolateBars)
+console.log(chocolateBars);
